@@ -1,0 +1,8 @@
+{
+  "handlers": {
+    "procs-log": {
+      "type": "pipe",
+      "command": "cp /dev/null /var/log/sensu/alert-procs.log && echo 'critical' > /var/log/sensu/alert-procs.log"
+    }
+  }
+}
