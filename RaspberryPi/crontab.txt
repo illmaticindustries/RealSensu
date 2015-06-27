@@ -23,6 +23,4 @@
 # For more information see the manual pages of crontab(5) and cron(8)
 # 
 # m h  dom mon dow   command
-#@reboot /home/pi/local/cpp/wink_los_sensing10/build/simpletest_raspicam_cv
-#@reboot /home/pi/maker_faire_ogaki/oton_ver1.sh
 * * * * * /home/pi/RaspberryPi/sensu_kanshi.sh
